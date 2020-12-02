@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: cornsilk;
+    padding: 20px auto;
+}
+
+header > h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: darkkhaki;
+}
+
+.score-board {
+    border: darkslategrey solid;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    top: 20px;
+}
+
+.badge {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: forestgreen;
+}
+
+#user-label {
+    position: absolute;
+    top: 28px;
+    left: -17px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 28px;
+    right: -33px;
+}
+
+.result {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    height: 80px;
+    width: 80px;    
+}
+
+.choices {
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+.choice {
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+.choice:hover {
+    cursor: pointer;
+    background: cornsilk;
+}
+
+#action-message {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
